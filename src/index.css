@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(145, 48, 151);
+  color: white;
+  padding:40px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  border-bottom: 2px solid white;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card {
+  width: 300px;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  color: black;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 20px;
+  height: 200px;
+  object-fit: cover;
+}
+.card .body {
+  padding: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.alert {
+  padding: 10px;
+  border-radius: 20px;
+  background: gray;
+}
+
+.uyarı {
+  background: red;
+}
+.hata {
+  background: blue;
+}
+.bilgi {
+  background: green;
+}
+
